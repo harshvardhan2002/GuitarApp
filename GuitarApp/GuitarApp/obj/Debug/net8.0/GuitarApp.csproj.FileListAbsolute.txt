@@ -1,0 +1,14 @@
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.exe
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.deps.json
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.runtimeconfig.json
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.dll
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\bin\Debug\net8.0\GuitarApp.pdb
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.AssemblyInfoInputs.cache
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.AssemblyInfo.cs
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.csproj.CoreCompileInputs.cache
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.dll
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\refint\GuitarApp.dll
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.pdb
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\GuitarApp.genruntimeconfig.cache
+C:\Users\Harshvardhan Gupta\source\repos\GuitarApp\GuitarApp\obj\Debug\net8.0\ref\GuitarApp.dll
