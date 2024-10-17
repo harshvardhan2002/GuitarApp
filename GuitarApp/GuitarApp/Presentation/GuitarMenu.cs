@@ -6,14 +6,11 @@ namespace GuitarApp.Presentation
 {
     internal class GuitarMenu
     {
-        private InventoryManager inventoryManager;
+        private static InventoryManager inventoryManager = new InventoryManager();
 
-        public GuitarMenu()
-        {
-            inventoryManager = new InventoryManager();
-        }
+        
 
-        public void DisplayMenu()
+        public static void DisplayMenu()
         {
             bool continueMenu = true;
 
@@ -29,7 +26,7 @@ namespace GuitarApp.Presentation
                 MakeChoice(choice);
             }
         }
-        public void MakeChoice(string choice)
+        public static void MakeChoice(string choice)
         {
             switch (choice)
             {
@@ -49,7 +46,7 @@ namespace GuitarApp.Presentation
             }
         }
 
-        private void AddGuitar()
+        private static void AddGuitar()
         {
             Console.Write("Enter serial number: ");
             string serialNumber = Console.ReadLine();
@@ -82,7 +79,7 @@ namespace GuitarApp.Presentation
             inventoryManager.AddGuitar(serialNumber, price, builder, model, guitarType, backWood, topWood, numStrings);
             Console.WriteLine("Guitar added successfully!");
         }
-        private Builder GetBuilder(string input)
+        private static Builder GetBuilder(string input)
         {
             switch (input)
             {
@@ -105,7 +102,7 @@ namespace GuitarApp.Presentation
             }
         }
 
-        private Enums.Type GetType(string input)
+        private static Enums.Type GetType(string input)
         {
             case "ELECTRIC":
                 return Enums.Type.ELECTRIC;
@@ -115,7 +112,7 @@ namespace GuitarApp.Presentation
                 Console.WriteLine("Invalid guitar type, hence defaulting to acoustic");
                 return Enums.Type.ACOUSTIC;
         }
-        private Wood GetWood(string input)
+        private static Wood GetWood(string input)
         {
             switch (input)
             {
@@ -141,7 +138,7 @@ namespace GuitarApp.Presentation
                     return Wood.INDIAN_ROSEWOOD;
             }
         }
-        private void SearchGuitar()
+        private static void SearchGuitar()
         {
             Console.WriteLine("\nWrite builder, type, back wood, top wood values\n");
 
