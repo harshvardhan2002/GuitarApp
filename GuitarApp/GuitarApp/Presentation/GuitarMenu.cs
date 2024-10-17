@@ -20,9 +20,9 @@ namespace GuitarApp.Presentation
             while (continueMenu)
             {
                 Console.WriteLine("Guitar Menu:");
-                Console.WriteLine("1. Add Guitar");
-                Console.WriteLine("2. Search Guitar");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("1. Add Guitar\n"+
+                    $"2. Search Guitar\n"+
+                    $"3. Exit");
                 Console.Write("Select an option: ");
                 string choice = Console.ReadLine();
 
@@ -107,11 +107,13 @@ namespace GuitarApp.Presentation
 
         private Enums.Type GetType(string input)
         {
-            if (input == "ELECTRIC")
-            {
+            case "ELECTRIC":
                 return Enums.Type.ELECTRIC;
-            }
-            return Enums.Type.ACOUSTIC;
+            case "ACOUSTIC":
+                return Enums.Type.ACOUSTIC;
+            default:
+                Console.WriteLine("Invalid guitar type, hence defaulting to acoustic");
+                return Enums.Type.ACOUSTIC;
         }
         private Wood GetWood(string input)
         {
